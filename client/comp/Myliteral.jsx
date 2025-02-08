@@ -9,8 +9,7 @@ function Myliteral(){
      }
 
      return  printgreets();
-
-
+     
 }
 
 export default Myliteral;
