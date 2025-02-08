@@ -17,17 +17,6 @@ function App() {
     return `first name:${firstname} lastname:${lastname} age:${age} post:${post} `
 }
 
-const Counter = () => {
-  const [count, setCount] = useState(0);
-
-  return (
-    <div>
-      <p>Count: {count}</p>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
-    </div>
-  );
-};
-  
   return (
 
     <>
@@ -41,9 +30,8 @@ const Counter = () => {
        <h3><Profile firstname={"Sahil"} lastname={"Bhosale"} age={23} post={"data science"}/></h3>
        <h3><Profile firstname={"kiran"} lastname={"sangare"} age={23} post={"c++ developer"}/></h3>
        <h3><Profile firstname={"simran"} lastname={"sangare"} age={24} post={"c++ developer"}/></h3>
-       <Counter />
        <Cnt></Cnt>
-    
+       <h1>hello</h1>
 
       </div>
      
