@@ -7,8 +7,9 @@ import Userprofile from "./componet/Userprofile";
 import Greet from "./componet/Greet";
 import Itemsadd from "./componet/Itemsadd";
 import Resti from "./componet/Resti";
-import Button from "./componet/Button";
-
+import Button from "./componet/Button"
+import File from "./componet/File";
+import Circles from "./componet/Circle";
 function App() {
 
   const Profiles=({firstname,lastname,age,post})=>{
@@ -33,8 +34,9 @@ function App() {
        <h5><Resti></Resti></h5>
        <h2> Using Rest Operator in Component Props</h2>
        <Button onClick={()=>alert("fUCK Life")}>Fuck you</Button>
-      <h2>Create a separate file (greetings.js) for exports:</h2>
-    
+       <h2>Create a separate file (Dashboard.js) for the component:</h2>
+       <File></File>
+       <Circles></Circles>
 
       </div>
      
