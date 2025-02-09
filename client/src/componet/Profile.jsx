@@ -5,9 +5,8 @@ function Profile({name,age,post}){
     return `name:${name}
             Age:${age}
             post:${post}`
-
    }
-
+   
    return setProfile();
     
 }
