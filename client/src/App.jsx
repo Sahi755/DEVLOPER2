@@ -3,15 +3,17 @@
 import React, { useState } from "react";
 import './App.css'
 
-function App(){
-  
-    return(
+function App() {
 
-       <div>
-         <h1>hello</h1>
-       </div>
-    )
-  
+  return (
+    <>
+      <div>
+       
+     
+      </div>
+
+    </>
+  )
 }
 
 export default App
