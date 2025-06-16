@@ -97,17 +97,76 @@ function typeof8(){
         console.log(`my password  type ${typeof(numbers)}`)
 }
 
-variablechange();
-block();
-obj();
-typeofs();
-typeof2();
-typeof3();
-typeof4();
-typeof5();
-typeof6();
-typeof7();
-typeof8();
+function addtion(n1,n2){
+
+      return n1+n2;
+
+}
+
+function multily(n1,n2){
+
+      return n1*n2;
+
+}
+
+function compare(str1,str2){
+
+      return str1==str2
+}
 
 
+function compare2(str1,str2){
 
+      return str1===str2
+}
+
+
+function compare3(str1,str2){
+
+      return str1!=str2
+}
+
+
+function compare4(str1,str2){
+
+      return str1!==str2
+}
+
+function compare5(num1){
+
+      return (num1>=10) && (num1<=50);
+}
+
+function compare6(Age){
+
+     let result=(Age>=18)?"old":"minor"
+
+     console.log(`result:${result}`)
+}
+
+function strInt(strInts){
+
+    return Number(strInts);
+}
+
+function Intstr(Intstrs){
+
+      return String(Intstrs);
+}
+var num1=11n;
+var num2=44n;
+
+var str1="siddhi"
+var str2="siddhi"
+console.log(`sum of ${num1} and ${num2} is ${addtion(num1,num2)}`);
+var mul=multily(num1,num2);
+console.log(`sum of ${num1} and ${num2} is ${mul}`);
+console.log(`compare of two string ${str1} and ${str2} is ${compare(str1,str2)}`);
+console.log(`compare of two string ${str1} and ${str2} is ${compare2(str1,str2)}`);
+console.log(` is  not equal compare of two string ${str1} and ${str2} is ${compare3(str1,str2)}`);
+console.log(` is  not equal equal compare of two string ${str1} and ${str2} is ${compare4(str1,str2)}`);
+console.log(` compare num  ${num1} is ${compare5(num1)}`);
+compare6(num1);
+console.log(`Str Into int  ${strInt("123")} type of ${typeof(strInt("123"))}`)
+
+console.log(`int into str ${Intstr(123)} type of ${typeof(Intstr(123))}`)
