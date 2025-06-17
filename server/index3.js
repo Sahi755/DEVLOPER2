@@ -153,6 +153,95 @@ function Intstr(Intstrs){
 
       return String(Intstrs);
 }
+
+function NumberType(num){
+
+    if(num===0){
+
+         console.log("Zero");
+
+    }else if(num>0){
+
+         console.log("positive")
+
+    }else if(num<0){
+
+         console.log("Negative")
+    }
+}
+
+function EvenOdd(num){
+
+       if(num%2===0){
+
+            console.log("Even");
+
+       }else{
+
+            console.log("Odd");
+       }
+}
+
+function childAger(childAge){
+
+        if(childAge>=1 && childAge<=12){
+
+            console.log("Abhi tu baccha hai be")
+
+        }else if(childAge>=13 && childAge<=19){
+
+            console.log("Ata tu paugandya Avsthet ahes!")
+        }else{
+
+             console.log("Ata tu tila ghodi karun jhav");
+        }
+}
+
+function between(num){
+
+        if(num>=10 && num<=20){
+
+             console.log("in between!")
+        }else{
+
+            console.log("Not in between!")
+        }
+
+}
+
+function login(Loged,Active){
+
+      if(Loged==true && Active==true){
+         
+            console.log("Login and Active")
+
+      }else{
+
+            console.log("Not Login and Active!")
+      }
+
+}
+function stringEmpty(str){
+
+      if(str.length===0){
+
+            console.log("string is empty!")
+      }else{
+              console.log("string is not empty!")
+      }
+}
+
+function stringMatch(str1,str2){
+
+      if(str1===str2){
+
+            console.log("Ek bap ke bete!")
+      }else{
+            console.log("do bap ke bete!");
+      }
+}
+
+
 var num1=11n;
 var num2=44n;
 
@@ -170,3 +259,41 @@ compare6(num1);
 console.log(`Str Into int  ${strInt("123")} type of ${typeof(strInt("123"))}`)
 
 console.log(`int into str ${Intstr(123)} type of ${typeof(Intstr(123))}`)
+
+NumberType(-1);
+NumberType(11);
+NumberType(45);
+NumberType(0);
+EvenOdd(23);
+EvenOdd(-3);
+EvenOdd(9);
+EvenOdd(99);
+EvenOdd(-99);
+EvenOdd(22);
+
+childAger(13);
+
+childAger(20);
+
+childAger(7);
+
+childAger(18);
+
+childAger(30);
+
+childAger(1)
+
+between(10)
+between(11)
+between(7)
+between(19)
+between(30)
+
+login(true,true)
+login(true,false)
+stringEmpty("")
+stringEmpty("Siddhi")
+stringEmpty("sahil")
+stringMatch("sahil","sahil")
+stringMatch("sahil","siddhi")
+
