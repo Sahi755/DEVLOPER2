@@ -241,6 +241,61 @@ function stringMatch(str1,str2){
       }
 }
 
+function Ranges(){
+
+      for(let num=1;num<=10;num++){
+
+            console.log(num)
+      }
+}
+function Sumof10(){
+
+      var sum=0;
+
+      for(let i=1;i<=10;i++){
+
+            sum+=i;
+      }
+
+      console.log(`Sum of ${sum}`)
+}
+
+function EvenNumber(){
+
+      let i=0;
+
+      console.log("even:")
+      while(i<10){
+
+          if(i%2==0){
+
+              console.log(i)
+          }
+          i++;
+      }
+
+}
+
+function Dowhile(){
+
+      let num=1;
+      console.log("do while loop:")
+      do{
+            console.log(num);
+            num++;
+      }while(num!=4);
+
+}
+
+function Squares(){
+
+      console.log("square:")
+      for(let i=0;i<10;i++){
+
+          console.log(i*i)
+      }
+}
+
 
 var num1=11n;
 var num2=44n;
@@ -296,4 +351,9 @@ stringEmpty("Siddhi")
 stringEmpty("sahil")
 stringMatch("sahil","sahil")
 stringMatch("sahil","siddhi")
-
+Ranges();
+Sumof10();
+EvenNumber();
+Dowhile();
+Squares();
+untilValid();
